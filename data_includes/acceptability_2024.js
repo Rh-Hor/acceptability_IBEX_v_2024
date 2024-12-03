@@ -21,15 +21,21 @@ var defaults = [
     "Message", { hideProgressBar: true, transfer: "click" }
 ];
 
+
+
+
+
+
+
  var progressBarText = "";
 
 var items = [ ["sep", "Separator", { }],
  
 	      ["intro", "Form", {continueMessage: "Pro vstup do experimentu klikněte zde", html: { include: "example_intro.html" }}],
 
-	      ["practice", aj, {s: {html: "<p>Pavel uviděl Marušku.</p><p><i>Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností v pravém konci škály (nejspíš 5).</i></p>"}}],
-["practice", aj, {s: {html: "Ačkoliv byla Marie unavená, navštívila včera ještě vedoucího hasičské jednotky Tříbětice.</p><p><i>Tato věta je v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v pravém konci škály (nejspíš 5).</i></p>"}}],
-["practice", aj, {s: {html: "Byla Marie unavená ačkoliv, navštívila včera ještě ho v Tříběticích.</p><p><i>Tato věta není v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v levém konci škály (nejspíš 1).</i></p>"}}],
+	      ["practice", aj, {s: {html: "<p>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p><p>Tři zaměstnanci letos dostanou žádné prémie.</p><p><i>O výše uvedené větě nejspíše máte pocit, že neodpovídá zásadám českého jazyka. Vhodné číslo pro ohodnocení takové věty tudíž bude nejspíše 1. Klikněte na požadované číslo na škále..</i></p>"}}],
+["practice", aj, {s: {html: "<p>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p><p>Tři zahradnice chtěly zalít květinové záhony.</p><p><i>Tato věta je v pořádku. Výše uvedená věta neobsahuje žádnou nesrovnalost a vypadá zcela v pořádku. Toto je tedy příklad gramatické a přijatelné věty, které odpovídá vyšší hodnocení – nejspíše 5. Klikněte na požadované číslo na škále.</i></p>"}}],
+["practice", aj, {s: {html: "<p>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p><p>Po příchodu ze záhonu měl Pepa na podrážce tři hlíny..</p><p><i>Tato věta není v pořádku. Pokud souhlasíte, vyberte jedno z nižších čísel (nejspíš 1).</i></p>"}}],
 
 	      ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do samotného experimentu."]]}],
 
