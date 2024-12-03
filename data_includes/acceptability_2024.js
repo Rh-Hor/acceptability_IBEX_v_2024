@@ -145,3 +145,4 @@ var items = [ ["sep", "Separator", { }],
 ["bad14", aj, {s: "Ani jedna velmi talentovaná herečka sehrála působivé drama." }],
 ["bad15", aj, {s: "Ani jeden  velmi snaživý vědec udělal kvalitní práci." }],
 ["bad16", aj, {s: "Ani jeden velmi disciplinovaný běžec zaběhl dobrý maraton." }],
+];
