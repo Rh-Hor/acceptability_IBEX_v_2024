@@ -55,7 +55,7 @@ var items = [ ["sep", "Separator", { }],
 
 [["i5-pl-g", 5], aj, {s: "Děvčata se sebemenším náznakem podváhy většinou jídávají hnusné jídlo."}],
 [["i5-pl-e", 5], aj, {s: "Děvčata se sebemenším náznakem podváhy právě snědla hnusné jídlo."}],
-[["i5-s-g"", 5], aj, {s: "Děvče se sebemenším náznakem podváhy většinou jídává hnusné jídlo."}],
+[["i5-s-g", 5], aj, {s: "Děvče se sebemenším náznakem podváhy většinou jídává hnusné jídlo."}],
 [["i5-s-e", 5], aj, {s: "Děvče se sebemenším náznakem podváhy právě snědlo hnusné jídlo."}],
 
 [["i6-pl-g", 6], aj, {s: "Kočky se sebemenším náznakem hrdosti většinou dělávají velký nepořádek."}],
