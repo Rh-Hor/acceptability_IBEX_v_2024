@@ -6,7 +6,7 @@ var aj = "AcceptabilityJudgment";
 
 var q = "Question";
 
-var completionMessage = "[Zadané odpovědi jsou odeslány na server. Děkujeme za spolupráci!]";
+var completionMessage = "[Děkuji Vám za účast. Odpovědi byly odeslány.]";
 
 var ms = "Message";
 
@@ -17,7 +17,7 @@ var defaults = [
 		 },
     "AcceptabilityJudgment", { as: ["1", "2", "3", "4", "5"],
                                presentAsScale: true,
-                               leftComment: "(absolutně nepřijatelná věta)", rightComment: "(věta je naprosto v pořádku)" },
+                               leftComment: "(nepřijatelná věta)", rightComment: "(věta je v pořádku)" },
     "Message", { hideProgressBar: true, transfer: "click" }
 ];
 
@@ -25,13 +25,13 @@ var defaults = [
 
 var items = [ ["sep", "Separator", { }],
  
-	      ["intro", "Form", {continueMessage: "Pro vstup do experimentu, klikněte zde", html: { include: "example_intro.html" }}],
+	      ["intro", "Form", {continueMessage: "Pro vstup do experimentu klikněte zde", html: { include: "example_intro.html" }}],
 
 	      ["practice", aj, {s: {html: "<p>Pavel uviděl Marušku.</p><p><i>Tato věta je v pořádku. Pokud souhlasíte, vyberte jednu z možností v pravém konci škály (nejspíš 5).</i></p>"}}],
 ["practice", aj, {s: {html: "Ačkoliv byla Marie unavená, navštívila včera ještě vedoucího hasičské jednotky Tříbětice.</p><p><i>Tato věta je v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v pravém konci škály (nejspíš 5).</i></p>"}}],
 ["practice", aj, {s: {html: "Byla Marie unavená ačkoliv, navštívila včera ještě ho v Tříběticích.</p><p><i>Tato věta není v pořádku. Pokud souhlasíte, vyberte jako odpověď jednu z možností v levém konci škály (nejspíš 1).</i></p>"}}],
 
-	      ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do experimentu."]]}],
+	      ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do samotného experimentu."]]}],
 
 [["first-item1-NR", 1], aj, {s: "Nový bača v Tatrách nechce, aby se ztratila ani jedna ovce."}],
 [["first-item1-middle", 1], aj, {s: "Nový bača v Tatrách si nemyslí, že se ztratila ani jedna ovce."}],
