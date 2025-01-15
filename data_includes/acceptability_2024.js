@@ -55,8 +55,8 @@ var items = [ ["sep", "Separator", { }],
 [["it3-s-e", 3], aj, {s: "Muslim se sebemenší stopou víry právě ušel tradiční pouť."}],
 
 [["it4-pl-g", 4], aj, {s: "Autoři se sebemenší známkou arogance většinou psávají naprostý brak."}],
-[["it4-pl-e", 4], aj, {s: "Autoři se sebemenší známkou arogance právě napsal naprostý brak."}],
-[["it4-s-g", 4], aj, {s: "Autor se sebemenší známkou arogance většinou psávají naprostý brak."}],
+[["it4-pl-e", 4], aj, {s: "Autoři se sebemenší známkou arogance právě napsali naprostý brak."}],
+[["it4-s-g", 4], aj, {s: "Autor se sebemenší známkou arogance většinou psává naprostý brak."}],
 [["it4-s-e", 4], aj, {s: "Autor se sebemenší známkou arogance právě napsal naprostý brak."}],
 
 [["it5-pl-g", 5], aj, {s: "Děvčata se sebemenším náznakem podváhy většinou jídávají hnusné jídlo."}],
