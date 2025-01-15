@@ -56,7 +56,7 @@ var items = [ ["sep", "Separator", { }],
 
 [["it4-pl-g", 4], aj, {s: "Autoři, kteří mají spoustu arogance, většinou psávají naprostý brak."}],
 [["it4-pl-e", 4], aj, {s: "Autoři, kteří měli spoustu arogance, právě napsali naprostý brak."}],
-[["it4-s-g", 4], aj, {s: "Autor, který má spoustu arogance, většinou psávají naprostý brak."}],
+[["it4-s-g", 4], aj, {s: "Autor, který má spoustu arogance, většinou psává naprostý brak."}],
 [["it4-s-e", 4], aj, {s: "Autor, který měl spoustu arogance, právě napsal naprostý brak."}],
 
 [["it5-pl-g", 5], aj, {s: "Děvčata, která mají silnou podváhu, většinou jídávají hnusné jídlo."}],
