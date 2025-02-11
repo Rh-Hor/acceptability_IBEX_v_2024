@@ -29,7 +29,7 @@ var items = [ ["sep", "Separator", { }],
 
 	      ["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje. Předmětem Vašeho hodnocení budou jen věty, které NEJSOU napsány kurzívou.</p></b><p><i>Kontext: Mirek má několik líných zaměstnanců. Tvrdí o nich: </i></p><p>Tři zaměstnanci letos dostanou žádné prémie.</p><p><b>Výše uvedená věta odpovídá kontextu, ale nejspíše máte pocit, že věta neodpovídá zásadám českého jazyka. Vhodné číslo pro ohodnocení takové věty tudíž bude nejspíše 1. Klikněte na požadované číslo na škále..</b></p>"}}],
 ["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.  Předmětem Vašeho hodnocení budou jen věty, které NEJSOU napsány kurzívou. </p></b><p><i>Kontext: Mirkovi se na zahradě porouchala hadice. Mirek říká opraváři do telefonu:</i></p><p>Tři zahradnice chtěly zalít květinové záhony, ale nemohly.</p><p><b>Výše uvedená věta neobsahuje žádnou nesrovnalost a vypadá zcela v pořádku. Toto je tedy příklad přijatelné věty, které odpovídá vyšší hodnocení – nejspíše 5. Klikněte na požadované číslo na škále.</b></p>"}}],
-["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.  Předmětem Vašeho hodnocení budou jen věty, které NEJSOU napsány kurzívou. </p></b><p><i>Kontext: Mirek potkal na obědě zahradníka Pepu. Mirek o něm říká:</i></p><p>Po příchodu ze záhonu měl Pepa na podrážce tři hlíny.</p><p><b> Tato věta není v pořádku: „tři hlíny“ se v češtině obvykle neříká. Pokud souhlasíte, vyberte jedno z nižších čísel (nejspíš 1).</b></p>"}}],
+["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.  Předmětem Vašeho hodnocení budou jen věty, které NEJSOU napsány kurzívou. </p></b><p><i>Kontext: Mirek potkal na obědě zahradníka Pepu. Mirek o něm říká:</i></p><p>Po příchodu ze záhonu měl Jirka na podrážce tři hlíny.</p><p><b> Tato věta není v pořádku: „tři hlíny“ se v češtině obvykle neříká, a navíc věta nesedí do kontextu, kde není zmíněn Jirka, nýbrž Pepa. Pokud souhlasíte, vyberte jedno z nižších čísel (nejspíš 1).</b></p>"}}],
 
 	      ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do samotného experimentu."]]}],
 
@@ -200,74 +200,72 @@ var items = [ ["sep", "Separator", { }],
 [["it19-s-g-nonpi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysa s vysokou úrovní inteligence většinou jídává čerstvou potravu."}}],
 [["it19-s-e-nonpi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Tvrdí o nich:</i></p> Krysa s vysokou úrovní inteligence právě snědla čerstvou potravu."}}],
 [["it19-pl-g-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysy se sebemenší známkou inteligence většinou jídávají čerstvou potravu."}}],
-[["it19-pl-e-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Krysy se sebemenší známkou inteligence právě snědly čerstvou potravu."}}],
+[["it19-pl-e-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Tvrdí o nich: </i></p> Krysy se sebemenší známkou inteligence právě snědly čerstvou potravu."}}],
 [["it19-s-g-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysa se sebemenší známkou inteligence většinou jídává čerstvou potravu."}}],
 [["it19-s-e-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Tvrdí o nich:</i></p> Krysa se sebemenší známkou inteligence právě snědla čerstvou potravu."}}],
 
-21.
-Evžen se zajímá o političky, což jsou často samostatné ženy. Tvrdí o nich:
-Evžen sledoval političky, z nichž některé zažily slovní útok. Tvrdí o nich:
+["it20-pl-g-nonpi", 20], aj, {s: {html: "<p><i>Kontext: Evžen se zajímá o političky, což jsou často samostatné ženy. Tvrdí o nich:</i></p> Političky s vysokou úrovní individuality většinou slýchávají hloupé řeči."}}],
+[["it20-pl-e-nonpi", 20], aj, {s: {html: "<p><i>Kontext: Evžen sledoval političky, z nichž některé zažily slovní útok. Tvrdí o nich:</i></p> Političky s vysokou úrovní individuality právě uslyšely hloupé řeči."}}],
+[["it20-s-g-nonpi", 20], aj, {s: {html: "<p><i>Kontext: Evžen se zajímá o političky, což jsou často samostatné ženy. Tvrdí o nich:</i></p> Politička s vysokou úrovní individuality většinou slýchává hloupé řeči."}}],
+[["it20-s-e-nonpi", 20], aj, {s: {html: "<p><i>Kontext: Evžen sledoval političky, z nichž některé zažily slovní útok. Tvrdí o nich:</i></p> Politička s vysokou úrovní individuality právě uslyšela hloupé řeči."}}],
+[["it20-pl-g-npi", 20], aj, {s: {html: "<p><i>Kontext: Evžen se zajímá o političky, což jsou často samostatné ženy. Tvrdí o nich:</i></p> Političky se sebemenším projevem individuality většinou slýchávají hloupé řeči."}}],
+[["it20-pl-e-npi", 20], aj, {s: {html: "<p><i>Kontext: Evžen sledoval političky, z nichž některé zažily slovní útok. Tvrdí o nich:</i></p> Političky se sebemenším projevem individuality právě uslyšely hloupé řeči."}}],
+[["it20-s-g-npi", 20], aj, {s: {html: "<p><i>Kontext: Evžen se zajímá o političky, což jsou často samostatné ženy. Tvrdí o nich:</i></p> Politička se sebemenším projevem individuality většinou slýchává hloupé řeči."}}],
+[["it20-s-e-npi", 20], aj, {s: {html: "<p><i>Kontext: vžen sledoval političky, z nichž některé zažily slovní útok. Tvrdí o nich:</i></p> Politička se sebemenším projevem individuality právě uslyšela hloupé řeči."}}],
+	     
+["it21-pl-g-nonpi", 21], aj, {s: {html: "<p><i>Kontext: Nora se zajímá o švadleny, což jsou často šikovné řemeslnice. Tvrdí o nich:</i></p> Švadleny s velkou měrou zručnosti většinou dělávají hodnotné zboží."}}],
+[["it21-pl-e-nonpi", 21], aj, {s: {html: "<p><i>Kontext: Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:</i></p> Švadleny s velkou měrou zručnosti právě udělaly hodnotné zboží."}}],
+[["it21-s-g-nonpi", 21], aj, {s: {html: "<p><i>Kontext: Nora se zajímá o švadleny, což jsou často šikovné řemeslnice. Tvrdí o nich:</i></p> Švadlena s velkou měrou zručnosti většinou dělává hodnotné zboží."}}],
+[["it21-s-e-nonpi", 21], aj, {s: {html: "<p><i>Kontext: Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:</i></p> Švadlena s velkou měrou zručnosti právě udělala hodnotné zboží."}}],
+[["it21-pl-g-npi", 21], aj, {s: {html: "<p><i>Kontext: Nora se zajímá o švadleny, což jsou často šikovné řemeslnice. Tvrdí o nich:</i></p> Švadleny se sebemenší trochou zručnosti většinou dělávají hodnotné zboží."}}],
+[["it21-pl-e-npi", 21], aj, {s: {html: "<p><i>Kontext: Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:</i></p> Švadleny se sebemenší trochou zručnosti právě udělaly hodnotné zboží."}}],
+[["it21-s-g-npi", 21], aj, {s: {html: "<p><i>Kontext: Nora se zajímá o švadleny, což jsou často šikovné řemeslnice. Tvrdí o nich:</i></p> Švadlena se sebemenší trochou zručnosti většinou dělává hodnotné zboží."}}],
+[["it21-s-e-npi", 21], aj, {s: {html: "<p><i>Kontext: Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:</i></p> Švadlena se sebemenší trochou zručnosti právě udělala hodnotné zboží."}}],
 
-Političky s vysokou úrovní individuality většinou slýchávají hloupé řeči.
-Političky s vysokou úrovní individuality právě uslyšely hloupé řeči.
-Politička s vysokou úrovní individuality většinou slýchává hloupé řeči.
-Politička s vysokou úrovní individuality právě uslyšela hloupé řeči.
-Političky se sebemenším projevem individuality většinou slýchávají hloupé řeči.
-Političky se sebemenším projevem individuality právě uslyšely hloupé řeči.
-Politička se sebemenším projevem individuality většinou slýchává hloupé řeči.
-Politička se sebemenším projevem individuality právě uslyšela hloupé řeči.
+["it22-pl-g-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou často líní lidé. Tvrdí o nich:</i></p> Středoškoláci s velkou měrou lenosti většinou nosívají špatné vysvědčení."}}],
+[["it22-pl-e-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda zkoumal středoškoláky, z nichž někteří málem nedokončili ročník. Tvrdí o nich:</i></p> Středoškoláci s velkou měrou lenosti právě přinesli špatné vysvědčení."}}],
+[["it22-s-g-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou často líní lidé. Tvrdí o nich:</i></p> Středoškolák s velkou měrou lenosti většinou nosívá špatné vysvědčení."}}],
+[["it22-s-e-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda zkoumal středoškoláky, z nichž někteří málem nedokončili ročník. Tvrdí o nich:</i></p> Středoškolák s velkou měrou lenosti právě přinesl špatné vysvědčení."}}],
+[["it22-pl-g-npi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou často líní lidé. Tvrdí o nich:</i></p> Středoškoláci se sebemenším náznakem lenosti většinou nosívají špatné vysvědčení."}}],
+[["it22-pl-e-npi", 22], aj, {s: {html: "<p><i>Kontext: Jenda zkoumal středoškoláky, z nichž někteří málem nedokončili ročník. Tvrdí o nich:</i></p> Středoškoláci se sebemenším náznakem lenosti právě přinesli špatné vysvědčení."}}],
+[["it22-s-g-npi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou často líní lidé. Tvrdí o nich:</i></p> Středoškolák se sebemenším náznakem lenosti většinou nosívá špatné vysvědčení."}}],
+[["it22-s-e-npi", 22], aj, {s: {html: "<p><i>Kontext: Jenda zkoumal středoškoláky, z nichž někteří málem nedokončili ročník. Tvrdí o nich:</i></p> Středoškolák se sebemenším náznakem lenosti právě přinesl špatné vysvědčení."}}],
 
-22.
-Nora se zajímá o švadleny, což jsou často šikovné řemeslnice. Tvrdí o nich:
-Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:
+["it23-pl-g-nonpi", 23], aj, {s: {html: "<p><i>Kontext: Cyril se zajímá o trekaře, což jsou často aktivní sportovci. Tvrdí o nich:</i></p> Trekaři s velkou měrou činorodosti většinou chodívají týdenní přechod."}}],
+[["it23-pl-e-nonpi", 23], aj, {s: {html: "<p><i>Kontext: Cyril sledoval trekaře, z nichž někteří zrovna dorazili domů. Tvrdí o nich:</i></p> Trekaři s velkou měrou činorodosti právě ušli týdenní přechod."}}],
+[["it23-s-g-nonpi", 23], aj, {s: {html: "<p><i>Kontext: Cyril se zajímá o trekaře, což jsou často aktivní sportovci. Tvrdí o nich:</i></p> Trekař s velkou měrou činorodosti většinou chodívá týdenní přechod."}}],
+[["it23-s-e-nonpi", 23], aj, {s: {html: "<p><i>Kontext: Cyril sledoval trekaře, z nichž někteří zrovna dorazili domů. Tvrdí o nich: </i></p> Trekař s velkou měrou činorodosti právě ušel týdenní přechod."}}],
+[["it23-pl-g-npi", 23], aj, {s: {html: "<p><i>Kontext: Cyril se zajímá o trekaře, což jsou často aktivní sportovci. Tvrdí o nich:</i></p> Trekaři se sebemenší trochou činorodosti většinou chodívají týdenní přechod."}}],
+[["it23-pl-e-npi", 23], aj, {s: {html: "<p><i>Kontext: Cyril sledoval trekaře, z nichž někteří zrovna dorazili domů. Tvrdí o nich: </i></p> Trekaři se sebemenší trochou činorodosti právě ušli týdenní přechod."}}],
+[["it23-s-g-npi", 23], aj, {s: {html: "<p><i>Kontext: Cyril se zajímá o trekaře, což jsou často aktivní sportovci. Tvrdí o nich:</i></p> Trekař se sebemenší trochou činorodosti většinou chodívá týdenní přechod."}}],
+[["it23-s-e-npi", 23], aj, {s: {html: "<p><i>Kontext: Cyril sledoval trekaře, z nichž někteří zrovna dorazili domů. Tvrdí o nich: </i></p> Trekař se sebemenší trochou činorodosti právě ušel týdenní přechod."}}],
 
-Švadleny s velkou měrou zručnosti většinou dělávají hodnotné zboží.
-Švadleny s velkou měrou zručnosti právě udělaly hodnotné zboží.
-Švadlena s velkou měrou zručnosti většinou dělává hodnotné zboží.
-Švadlena s velkou měrou zručnosti právě udělala hodnotné zboží.
-Švadleny se sebemenší trochou zručnosti většinou dělávají hodnotné zboží.
-Švadleny se sebemenší trochou zručnosti právě udělaly hodnotné zboží.
-Švadlena se sebemenší trochou zručnosti většinou dělává hodnotné zboží.
-Švadlena se sebemenší trochou zručnosti právě udělala hodnotné zboží.
+["it24-pl-g-nonpi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou často inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistky s vysokou úrovní vynalézavosti většinou hrávají jazzovou improvizaci."}}],
+[["it24-pl-e-nonpi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistky s vysokou úrovní vynalézavosti právě zahrály jazzovou improvizaci."}}],
+[["it24-s-g-nonpi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou často inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistka s vysokou úrovní vynalézavosti většinou hrává jazzovou improvizaci."}}],
+[["it24-s-e-nonpi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistka s vysokou úrovní vynalézavosti právě zahrála jazzovou improvizaci."}}],
+[["it24-pl-g-npi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou často inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistky se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci."}}],
+[["it24-pl-e-npi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistky se sebemenší známkou vynalézavosti právě zahrály jazzovou improvizaci."}}],
+[["it24-s-g-npi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou často inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistka se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci."}}],
+[["it24-s-e-npi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistka se sebemenší známkou vynalézavosti právě zahrála jazzovou improvizaci."}}],
 
-23.
-Cyril se zajímá o turisty, což jsou často aktivní sportovci. Tvrdí o nich:
-Cyril sledoval turisty, z nichž někteří dorazili z hor. Tvrdí o nich:
+["it25-pl-g-nonpi", 25], aj, {s: {html: "<p><i>Kontext: Bětka se zajímá o kajakáře, což jsou často dobrodružní lidé. Tvrdí o nich:</i></p> Kajakáři s velkou měrou odvahy většinou jezdívají divokou vodu."}}],
+[["it25-pl-e-nonpi", 25], aj, {s: {html: "<p><i>Kontext: Bětka sledovala kajakáře, z nichž někteří překonávali přírodní překážky. Tvrdí o nich:</i></p>Kajakáři s velkou měrou odvahy právě sjeli divokou vodu."}}],
+[["it25-s-g-nonpi", 25], aj, {s: {html: "<p><i>Kontext: Bětka se zajímá o kajakáře, což jsou často dobrodružní lidé. Tvrdí o nich:</i></p> Kajakář s velkou měrou odvahy většinou jezdívá divokou vodu."}}],
+[["it25-s-e-nonpi", 25], aj, {s: {html: "<p><i>Kontext: Bětka sledovala kajakáře, z nichž někteří překonávali přírodní překážky. Tvrdí o nich:</i></p> Kajakář  s velkou měrou odvahy právě sjel divokou vodu."}}],
+[["it25-pl-g-npi", 25], aj, {s: {html: "<p><i>Kontext: Bětka se zajímá o kajakáře, což jsou často dobrodružní lidé. Tvrdí o nich:</i></p> Kajakáři se sebemenší trochou odvahy většinou jezdívají divokou vodu."}}],
+[["it25-pl-e-npi", 25], aj, {s: {html: "<p><i>Kontext: Bětka sledovala kajakáře, z nichž někteří překonávali přírodní překážky. Tvrdí o nich:</i></p> Kajakáři se sebemenší trochou odvahy právě sjeli divokou vodu."}}],
+[["it25-s-g-npi", 25], aj, {s: {html: "<p><i>Kontext: Bětka se zajímá o kajakáře, což jsou často dobrodružní lidé. Tvrdí o nich:</i></p> Kajakář se sebemenší trochou odvahy většinou jezdívá divokou vodu."}}],
+[["it25-s-e-npi", 25], aj, {s: {html: "<p><i>Kontext: Bětka sledovala kajakáře, z nichž někteří překonávali přírodní překážky. Tvrdí o nich:</i></p> Kajakář se sebemenší trochou odvahy právě sjel divokou vodu."}}],
+	
 
-Turisté s velkou měrou činorodosti většinou chodívají horský okruh.
-Turisté s velkou měrou činorodosti právě ušli horský okruh.
-Turista s velkou měrou činorodosti většinou chodívá horský okruh.
-Turista s velkou měrou činorodosti právě ušel horský okruh.
-Turisté se sebemenší trochou činorodosti většinou chodívají horský okruh.
-Turisté se sebemenší trochou činorodosti právě ušli horský okruh.
-Turista se sebemenší trochou činorodosti většinou chodívá horský okruh.
-Turista se sebemenší trochou činorodosti právě ušel horský okruh.
 
-24.
-Marie se zajímá o saxofonistky, což jsou často inovativní hudebnice. Tvrdí o nich:
-Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:
 
-Saxofonistky s vysokou úrovní vynalézavosti většinou hrávají jazzovou improvizaci.
-Saxofonistky s vysokou úrovní vynalézavosti právě zahrály jazzovou improvizaci.
-Saxofonistka s vysokou úrovní vynalézavosti většinou hrává jazzovou improvizaci.
-Saxofonistka s vysokou úrovní vynalézavosti právě zahrála jazzovou improvizaci.
-Saxofonistky se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci.
-Saxofonistky se sebemenší známkou vynalézavosti právě zahrály jazzovou improvizaci.
-Saxofonistka se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci.
-Saxofonistka se sebemenší známkou vynalézavosti právě zahrála jazzovou improvizaci.
 
-25.
-Bětka se zajímá o kajakáře, což jsou často dobrodružní lidé. Tvrdí o nich:
-Bětka sledovala kajakáře, z nichž někteří překonávali přírodní překážky. Tvrdí o nich:
 
-Kajakáři s velkou měrou odvahy většinou jezdívají divokou vodu.
-Kajakáři s velkou měrou odvahy právě sjeli divokou vodu.
-Kajakář s velkou měrou odvahy většinou jezdívá divokou vodu.
-Kajakář  s velkou měrou odvahy právě sjel divokou vodu.
-Kajakáři se sebemenší trochou odvahy většinou jezdívají divokou vodu.
-Kajakáři se sebemenší trochou odvahy právě sjeli divokou vodu.
-Kajakář se sebemenší trochou odvahy většinou jezdívá divokou vodu.
-Kajakář se sebemenší trochou odvahy právě sjel divokou vodu.
+
+
+
 
 	     
 
