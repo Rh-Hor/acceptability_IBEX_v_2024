@@ -177,6 +177,97 @@ var items = [ ["sep", "Separator", { }],
 [["it16-s-g-npi", 16], aj, {s: {html: "<p><i>Kontext: Pepa se zajímá o běžce, což jsou často vytrvalí lidé. Tvrdí o nich:</i></p> Běžec se sebemenší trochou disciplíny většinou běhává dobrý maraton."}}],
 [["it16-s-e-npi", 16], aj, {s: {html: "<p><i>Kontext: Pepa pozoroval běžce, z nichž někteří doběhli závod brzy. Tvrdí o nich:</i></p> Běžec se sebemenší trochou disciplíny právě zaběhl dobrý maraton."}}],
 
+[["it17-pl-g-nonpi", 17], aj, {s: {html: "<p><i>Kontext: Blanka se zajímá o šprty, což jsou často ambiciózní děti. Tvrdí o nich:</i></p> Šprti s velkou měrou ambice většinou hrávají trojrozměrné šachy."}}],
+[["it17-pl-e-nonpi", 17], aj, {s: {html: "<p><i>Kontext: Blanka pozorovala šprty, z nichž někteří dokončili partii 3D šachů. Tvrdí o nich:</i></p> Šprti s velkou měrou ambice právě dohráli trojrozměrné šachy."}}],
+[["it17-s-g-nonpi", 17], aj, {s: {html: "<p><i>Kontext: Blanka se zajímá o šprty, což jsou často ambiciózní děti. Tvrdí o nich:</i></p> Šprt s velkou měrou ambice většinou hrává trojrozměrné šachy."}}],
+[["it17-s-e-nonpi", 17], aj, {s: {html: "<p><i>Kontext: Blanka pozorovala šprty, z nichž někteří dokončili partii 3D šachů. Tvrdí o nich:</i></p> Šprt s velkou měrou ambice právě dohrál trojrozměrné šachy."}}],
+[["it17-pl-g-npi", 17], aj, {s: {html: "<p><i>Kontext: Blanka se zajímá o šprty, což jsou často ambiciózní děti. Tvrdí o nich:</i></p> Šprti se sebemenší známkou ambice většinou hrávají 3D šachy."}}],
+[["it17-pl-e-npi", 17], aj, {s: {html: "<p><i>Kontext: Blanka pozorovala šprty, z nichž někteří dokončili partii 3D šachů. Tvrdí o nich:</i></p> Šprti se sebemenší známkou ambice právě dohráli 3D šachy."}}],
+[["it17-s-g-npi", 17], aj, {s: {html: "<p><i>Kontext: Blanka se zajímá o šprty, což jsou často ambiciózní děti. Tvrdí o nich:</i></p> Šprt se sebemenší známkou ambice většinou hrává 3D šachy."}}],
+[["it17-s-e-npi", 17], aj, {s: {html: "<p><i>Kontext: Blanka pozorovala šprty, z nichž někteří dokončili partii 3D šachů. Tvrdí o nich:</i></p> Šprt se sebemenší známkou ambice právě dohrál 3D šachy."}}],
+
+[["it18-pl-g-nonpi", 18], aj, {s: {html: "<p><i>Kontext: Květa se zajímá o hlídače, což jsou často bystří zaměstnanci. Tvrdí o nich:</i></p> Hlídači s velkou měrou všímavosti většinou vídávají podezřelou činnost."}}],
+[["it18-pl-e-nonpi", 18], aj, {s: {html: "<p><i>Kontext: Květa vyzpovídala hlídače, z nichž někteří sáhli po zbraních. Tvrdí o nich: </i></p> Hlídači s velkou měrou všímavosti právě uviděli podezřelou činnost."}}],
+[["it18-s-g-nonpi", 18], aj, {s: {html: "<p><i>Kontext: Květa se zajímá o hlídače, což jsou často bystří zaměstnanci. Tvrdí o nich:</i></p> Hlídač s velkou měrou všímavosti většinou vídává podezřelou činnost."}}],
+[["it18-s-e-nonpi", 18], aj, {s: {html: "<p><i>Kontext: Květa vyzpovídala hlídače, z nichž někteří sáhli po zbraních. Tvrdí o nich:</i></p> Hlídač s velkou měrou všímavosti právě uviděl podezřelou činnost."}}],
+[["it18-pl-g-npi", 18], aj, {s: {html: "<p><i>Kontext: Květa se zajímá o hlídače, což jsou často bystří zaměstnanci. Tvrdí o nich:</i></p> Hlídači se sebemenší trochou všímavosti většinou vídávají podezřelou činnost."}}],
+[["it18-pl-e-npi", 18], aj, {s: {html: "<p><i>Kontext: Květa vyzpovídala hlídače, z nichž někteří sáhli po zbraních. Tvrdí o nich:</i></p> Hlídači se sebemenší trochou všímavosti právě uviděli podezřelou činnost."}}],
+[["it18-s-g-npi", 18], aj, {s: {html: "<p><i>Kontext: Květa se zajímá o hlídače, což jsou často bystří zaměstnanci. Tvrdí o nich:</i></p> Hlídač se sebemenší trochou všímavosti většinou vídává podezřelou činnost."}}],
+[["it18-s-e-npi", 18], aj, {s: {html: "<p><i>Kontext: Květa vyzpovídala hlídače, z nichž někteří sáhli po zbraních. Tvrdí o nich:</i></p> Hlídač se sebemenší trochou všímavosti právě uviděl podezřelou činnost."}}],
+	     
+[["it19-pl-g-nonpi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysy s vysokou úrovní inteligence většinou jídávají čerstvou potravu."}}],
+[["it19-pl-e-nonpi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Tvrdí o nich: </i></p> Krysy s vysokou úrovní inteligence právě snědly čerstvou potravu."}}],
+[["it19-s-g-nonpi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysa s vysokou úrovní inteligence většinou jídává čerstvou potravu."}}],
+[["it19-s-e-nonpi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Tvrdí o nich:</i></p> Krysa s vysokou úrovní inteligence právě snědla čerstvou potravu."}}],
+[["it19-pl-g-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysy se sebemenší známkou inteligence většinou jídávají čerstvou potravu."}}],
+[["it19-pl-e-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Krysy se sebemenší známkou inteligence právě snědly čerstvou potravu."}}],
+[["it19-s-g-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda se zajímá o krysy, což jsou často chytrá zvířata. Tvrdí o nich:</i></p> Krysa se sebemenší známkou inteligence většinou jídává čerstvou potravu."}}],
+[["it19-s-e-npi", 19], aj, {s: {html: "<p><i>Kontext: Tonda pozoroval krysy, z nichž některé odmítly uleželé granule. Tvrdí o nich:</i></p> Krysa se sebemenší známkou inteligence právě snědla čerstvou potravu."}}],
+
+21.
+Evžen se zajímá o političky, což jsou často samostatné ženy. Tvrdí o nich:
+Evžen sledoval političky, z nichž některé zažily slovní útok. Tvrdí o nich:
+
+Političky s vysokou úrovní individuality většinou slýchávají hloupé řeči.
+Političky s vysokou úrovní individuality právě uslyšely hloupé řeči.
+Politička s vysokou úrovní individuality většinou slýchává hloupé řeči.
+Politička s vysokou úrovní individuality právě uslyšela hloupé řeči.
+Političky se sebemenším projevem individuality většinou slýchávají hloupé řeči.
+Političky se sebemenším projevem individuality právě uslyšely hloupé řeči.
+Politička se sebemenším projevem individuality většinou slýchává hloupé řeči.
+Politička se sebemenším projevem individuality právě uslyšela hloupé řeči.
+
+22.
+Nora se zajímá o švadleny, což jsou často šikovné řemeslnice. Tvrdí o nich:
+Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:
+
+Švadleny s velkou měrou zručnosti většinou dělávají hodnotné zboží.
+Švadleny s velkou měrou zručnosti právě udělaly hodnotné zboží.
+Švadlena s velkou měrou zručnosti většinou dělává hodnotné zboží.
+Švadlena s velkou měrou zručnosti právě udělala hodnotné zboží.
+Švadleny se sebemenší trochou zručnosti většinou dělávají hodnotné zboží.
+Švadleny se sebemenší trochou zručnosti právě udělaly hodnotné zboží.
+Švadlena se sebemenší trochou zručnosti většinou dělává hodnotné zboží.
+Švadlena se sebemenší trochou zručnosti právě udělala hodnotné zboží.
+
+23.
+Cyril se zajímá o turisty, což jsou často aktivní sportovci. Tvrdí o nich:
+Cyril sledoval turisty, z nichž někteří dorazili z hor. Tvrdí o nich:
+
+Turisté s velkou měrou činorodosti většinou chodívají horský okruh.
+Turisté s velkou měrou činorodosti právě ušli horský okruh.
+Turista s velkou měrou činorodosti většinou chodívá horský okruh.
+Turista s velkou měrou činorodosti právě ušel horský okruh.
+Turisté se sebemenší trochou činorodosti většinou chodívají horský okruh.
+Turisté se sebemenší trochou činorodosti právě ušli horský okruh.
+Turista se sebemenší trochou činorodosti většinou chodívá horský okruh.
+Turista se sebemenší trochou činorodosti právě ušel horský okruh.
+
+24.
+Marie se zajímá o saxofonistky, což jsou často inovativní hudebnice. Tvrdí o nich:
+Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:
+
+Saxofonistky s vysokou úrovní vynalézavosti většinou hrávají jazzovou improvizaci.
+Saxofonistky s vysokou úrovní vynalézavosti právě zahrály jazzovou improvizaci.
+Saxofonistka s vysokou úrovní vynalézavosti většinou hrává jazzovou improvizaci.
+Saxofonistka s vysokou úrovní vynalézavosti právě zahrála jazzovou improvizaci.
+Saxofonistky se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci.
+Saxofonistky se sebemenší známkou vynalézavosti právě zahrály jazzovou improvizaci.
+Saxofonistka se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci.
+Saxofonistka se sebemenší známkou vynalézavosti právě zahrála jazzovou improvizaci.
+
+25.
+Bětka se zajímá o kajakáře, což jsou často dobrodružní lidé. Tvrdí o nich:
+Bětka sledovala kajakáře, z nichž někteří překonávali přírodní překážky. Tvrdí o nich:
+
+Kajakáři s velkou měrou odvahy většinou jezdívají divokou vodu.
+Kajakáři s velkou měrou odvahy právě sjeli divokou vodu.
+Kajakář s velkou měrou odvahy většinou jezdívá divokou vodu.
+Kajakář  s velkou měrou odvahy právě sjel divokou vodu.
+Kajakáři se sebemenší trochou odvahy většinou jezdívají divokou vodu.
+Kajakáři se sebemenší trochou odvahy právě sjeli divokou vodu.
+Kajakář se sebemenší trochou odvahy většinou jezdívá divokou vodu.
+Kajakář se sebemenší trochou odvahy právě sjel divokou vodu.
 
 	     
 
