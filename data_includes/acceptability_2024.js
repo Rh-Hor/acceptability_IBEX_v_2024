@@ -109,9 +109,9 @@ var items = [ ["sep", "Separator", { }],
 [["it14-s-g", 14], aj, {s: {html: "<p><i>Kontext: Marek se zajímá o herečky, což jsou často nadané umělkyně. Tvrdí o nich:</i></p> Herečka s přirozeným talentem většinou hrává působivé drama."}}],
 [["it14-s-e", 14], aj, {s: {html: "<p><i>Kontext: Marek sledoval herečky, z nichž některé dojaly každého diváka. Tvrdí o nich:</i></p> Herečka s přirozeným talentem právě sehrála působivé drama."}}],
 
-[["it15-pl-g", 15], aj, {s: {html: "<p><i>Kontext: Zora se zajímá o vědce, což jsou často rozumní lidé. Tvrdí o nich:</i></p> Vědci s opravdovou snahou většinou dělávají kvalitní práci."}}],
+[["it15-pl-g", 15], aj, {s: {html: "<p><i>Kontext: Zora se zajímá o vědce, což jsou často snaživí lidé. Tvrdí o nich:</i></p> Vědci s opravdovou snahou většinou dělávají kvalitní práci."}}],
 [["it15-pl-e", 15], aj, {s: {html: "<p><i>Kontext: Zora zkoumala vědce, z nichž někteří vyvinuli špičkové metody. Tvrdí o nich:</i></p> Vědci s opravdovou snahou právě udělali kvalitní práci."}}],
-[["it15-s-g", 15], aj, {s: {html: "<p><i>Kontext: Zora se zajímá o vědce, což jsou často rozumní lidé. Tvrdí o nich:</i></p> Vědec s opravdovou snahou většinou dělává kvalitní práci."}}],
+[["it15-s-g", 15], aj, {s: {html: "<p><i>Kontext: Zora se zajímá o vědce, což jsou často snaživí lidé. Tvrdí o nich:</i></p> Vědec s opravdovou snahou většinou dělává kvalitní práci."}}],
 [["it15-s-e", 15], aj, {s: {html: "<p><i>Kontext: Zora zkoumala vědce, z nichž někteří vyvinuli špičkové metody. Tvrdí o nich:</i></p> Vědec s opravdovou snahou právě udělal kvalitní práci."}}],
 
 [["it16-pl-g", 16], aj, {s: {html: "<p><i>Kontext: Pepa se zajímá o běžce, což jsou často vytrvalí lidé. Tvrdí o nich:</i></p> Běžci s pořádnou disciplínou většinou běhávají dobrý maraton."}}],
