@@ -33,9 +33,9 @@ var items = [ ["sep", "Separator", { }],
  
 	      ["intro", "Form", {continueMessage: "Pro vstup do experimentu klikněte zde. Předmětem hodnocení jsou věty, které NEJSOU napsány kurzívou.", html: { include: "example_intro.html" }}],
 
-	      ["practice", aj, {s: {html: "<p><i>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p><p><i>Kontext: Mirek má několik líných zaměstnanců. Tvrdí o nich: </i></p></i><p>Tři zaměstnanci letos dostanou žádné prémie.</p><p><i>Výše uvedená věta odpovídá kontextu, ale nejspíše máte pocit, že věta neodpovídá zásadám českého jazyka. Vhodné číslo pro ohodnocení takové věty tudíž bude nejspíše 1. Klikněte na požadované číslo na škále..</i></p>"}}],
-["practice", aj, {s: {html: "<p><i>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p></i><p><i>Kontext: Mirkovi se na zahradě porouchala hadice. Mirek říká opraváři do telefonu:</i></p><p>Tři zahradnice chtěly zalít květinové záhony, ale nemohly.</p><p><i>Výše uvedená věta neobsahuje žádnou nesrovnalost a vypadá zcela v pořádku. Také nijak neodporuje uvedenému kontextu. Toto je tedy příklad přijatelné věty, které odpovídá vyšší hodnocení – nejspíše 5. Klikněte na požadované číslo na škále.</i></p>"}}],
-["practice", aj, {s: {html: "<p><i>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p></i><p><i>Kontext: Mirek potkal na obědě zahradníka Pepu. Mirek o něm říká:</i></p><p>Po příchodu ze záhonu měl účetní Rafael na podrážce tři hlíny..</p><p><i> Tato věta není v pořádku, a to nejen kvůli třem hlínám, ale také proto, že zmiňuje Rafaela a tudíž neodpovídá kontextu. Pokud souhlasíte, vyberte jedno z nižších čísel (nejspíš 1).</i></p>"}}],
+	      ["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p></b><p><i>Kontext: Mirek má několik líných zaměstnanců. Tvrdí o nich: </i></p><p>Tři zaměstnanci letos dostanou žádné prémie.</p><p><b>Výše uvedená věta odpovídá kontextu, ale nejspíše máte pocit, že věta neodpovídá zásadám českého jazyka. Vhodné číslo pro ohodnocení takové věty tudíž bude nejspíše 1. Klikněte na požadované číslo na škále..</b></p>"}}],
+["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p></b><p><i>Kontext: Mirkovi se na zahradě porouchala hadice. Mirek říká opraváři do telefonu:</i></p><p>Tři zahradnice chtěly zalít květinové záhony, ale nemohly.</p><p><b>Výše uvedená věta neobsahuje žádnou nesrovnalost a vypadá zcela v pořádku. Také nijak neodporuje uvedenému kontextu. Toto je tedy příklad přijatelné věty, které odpovídá vyšší hodnocení – nejspíše 5. Klikněte na požadované číslo na škále.</b></p>"}}],
+["practice", aj, {s: {html: "<p><b>Nacházíte se v přípravné fázi experimentu. Pozorně sledujte, co se po vás vyžaduje.</p></b><p><i>Kontext: Mirek potkal na obědě zahradníka Pepu. Mirek o něm říká:</i></p><p>Po příchodu ze záhonu měl účetní Rafael na podrážce tři hlíny..</p><p><b> Tato věta není v pořádku, a to nejen kvůli třem hlínám, ale také proto, že zmiňuje Rafaela a tudíž neodpovídá kontextu. Pokud souhlasíte, vyberte jedno z nižších čísel (nejspíš 1).</b></p>"}}],
 
 	      ["practiceover", "Message", {continueMessage: "Klikněte zde pro pokračování experimentu", html: ["div", ["p", "Zde končí přípravná část experimentu. Klikněte níže pro vstup do samotného experimentu."]]}],
 
@@ -75,9 +75,9 @@ var items = [ ["sep", "Separator", { }],
 [["it7-s-e", 7], aj, {s: {html: "<p><i>Kontext: Jarek sledoval muly, z nichž některé dostaly velmi zabrat. Tvrdí o nich:</i></p> Mula s tělesnou zdatností právě unesla těžký náklad."}}],
 
 [["it8-pl-g", 8], aj, {s: {html: "<p><i>Kontext: Jiřka se zajímá o jasnovidky, což jsou často mystické ženy. Tvrdí o nich:</i></p> Jasnovidky s magickým nadáním většinou vídávají smutnou budoucnost."}}],
-[["it8-pl-e", 8], aj, {s: {html: "<p><i>Kontext: Jiřka vyzpovídala jasnovidky, z nichž některé nevyvěštily nic pěkného. Tvrdí o nich:</i></p> Jasnovidky s magickým nadáním právě uviděly smutnou budoucnost."}}],
+[["it8-pl-e", 8], aj, {s: {html: "<p><i>Kontext: Jiřka vyzpovídala jasnovidky, z nichž některé vyvěštily samé trápení. Tvrdí o nich:</i></p> Jasnovidky s magickým nadáním právě uviděly smutnou budoucnost."}}],
 [["it8-s-g", 8], aj, {s: {html: "<p><i>Kontext: Jiřka se zajímá o jasnovidky, což jsou často mystické ženy. Tvrdí o nich:</i></p> Jasnovidka s magickým nadáním většinou vídává smutnou budoucnost."}}],
-[["it8-s-e", 8], aj, {s: {html: "<p><i>Kontext: Jiřka vyzpovídala  jasnovidky, z nichž některé nevyvěštily nic pěkného. Tvrdí o nich:</i></p> Jasnovidka s magickým nadáním právě uviděla smutnou budoucnost."}}],
+[["it8-s-e", 8], aj, {s: {html: "<p><i>Kontext: Jiřka vyzpovídala  jasnovidky, z nichž některé vyvěštily samé trápení. Tvrdí o nich:</i></p> Jasnovidka s magickým nadáním právě uviděla smutnou budoucnost."}}],
 
 [["it9-pl-g", 9], aj, {s: {html: "<p><i>Kontext: Zdena se zajímá o děti, což jsou často nenasytní tvorové. Tvrdí o nich:</i></p> Děti s nezkrotnou mlsností většinou jídávají prošlé cukroví."}}],
 [["it9-pl-e", 9], aj, {s: {html: "<p><i>Kontext: Zdena pozorovala děti, z nichž některým nevadí staré potraviny. Tvrdí o nich:</i></p> Děti s nezkrotnou mlsností právě snědly prošlé cukroví."}}],
@@ -99,14 +99,14 @@ var items = [ ["sep", "Separator", { }],
 [["it12-s-g", 12], aj, {s:  {html: "<p><i>Kontext: Hanka se zajímá o ohaře, což jsou často temperamentní psi. Tvrdí o nich:</i></p> Ohař s vrozenou agresivitou většinou nosívá zabitou kořist."}}],
 [["it12-s-e", 12], aj, {s:  {html: "<p><i>Kontext: Hanka sledovala ohaře, z nichž někteří zvládli dobře aportovat. Tvrdí o nich:</i></p> Ohař s vrozenou agresivitou právě přinesl zabitou kořist."}}],
 
-[["it13-pl-g", 13], aj, {s: {html: "<p><i>Kontext: Pavel se zajímá o lyžařky, což jsou často ostřílené ženy. Tvrdí o nich:</i></p> Lyžařky s letitou zkušeností většinou jezdívají dobrý slalom."}}],
+[["it13-pl-g", 13], aj, {s: {html: "<p><i>Kontext: Pavel se zajímá o lyžařky, což jsou často ostřílené sportovkyně. Tvrdí o nich:</i></p> Lyžařky s letitou zkušeností většinou jezdívají dobrý slalom."}}],
 [["it13-pl-e", 13], aj, {s: {html: "<p><i>Kontext: Pavel pozoroval lyžařky, z nichž některé podaly úžasný výkon. Tvrdí o nich:</i></p> Lyžařky s letitou zkušeností právě zajely dobrý slalom."}}],
-[["it13-s-g", 13], aj, {s: {html: "<p><i>Kontext: Pavel se zajímá o lyžařky, což jsou často ostřílené ženy. Tvrdí o nich:</i></p> Lyžařka s letitou zkušeností většinou jezdívá dobrý slalom."}}],
+[["it13-s-g", 13], aj, {s: {html: "<p><i>Kontext: Pavel se zajímá o lyžařky, což jsou často ostřílené sportovkyně. Tvrdí o nich:</i></p> Lyžařka s letitou zkušeností většinou jezdívá dobrý slalom."}}],
 [["it13-s-e", 13], aj, {s: {html: "<p><i>Kontext: Pavel  pozoroval lyžařky, z nichž některé podaly úžasný výkon. Tvrdí o nich:</i></p> Lyžařka s letitou zkušeností právě zajela dobrý slalom."}}],
 	     
-[["it14-pl-g", 14], aj, {s: {html: "<p><i>Kontext: Marek se zajímá o herečky, což jsou často nadané ženy. Tvrdí o nich:</i></p> Herečky s přirozeným talentem většinou hrávají působivé drama."}}],
+[["it14-pl-g", 14], aj, {s: {html: "<p><i>Kontext: Marek se zajímá o herečky, což jsou často nadané umělkyně. Tvrdí o nich:</i></p> Herečky s přirozeným talentem většinou hrávají působivé drama."}}],
 [["it14-pl-e", 14], aj, {s: {html: "<p><i>Kontext: Marek sledoval herečky, z nichž některé dojaly každého diváka. Tvrdí o nich:</i></p> Herečky s přirozeným talentem právě sehrály působivé drama."}}],
-[["it14-s-g", 14], aj, {s: {html: "<p><i>Kontext: Marek se zajímá o herečky, což jsou často nadané ženy. Tvrdí o nich:</i></p> Herečka s přirozeným talentem většinou hrává působivé drama."}}],
+[["it14-s-g", 14], aj, {s: {html: "<p><i>Kontext: Marek se zajímá o herečky, což jsou často nadané umělkyně. Tvrdí o nich:</i></p> Herečka s přirozeným talentem většinou hrává působivé drama."}}],
 [["it14-s-e", 14], aj, {s: {html: "<p><i>Kontext: Marek sledoval herečky, z nichž některé dojaly každého diváka. Tvrdí o nich:</i></p> Herečka s přirozeným talentem právě sehrála působivé drama."}}],
 
 [["it15-pl-g", 15], aj, {s: {html: "<p><i>Kontext: Zora se zajímá o vědce, což jsou často rozumní lidé. Tvrdí o nich:</i></p> Vědci s opravdovou snahou většinou dělávají kvalitní práci."}}],
@@ -133,6 +133,6 @@ var items = [ ["sep", "Separator", { }],
 ["fbad12", aj, {s: {html: "<p><i>Kontext: Hanka sledovala několik ohařů. Tvrdí o nich:</i></p> Ani jeden velmi agresivní ohař přinesl zabitou kořist." }}],
 ["fbad13", aj, {s: {html: "<p><i>Kontext: Pavel pozoroval několik lyžařek. Tvrdí o nich:</i></p>Ani jedna velmi zkušená lyžařka zajela dobrý slalom." }}],
 ["fbad14", aj, {s: {html: "<p><i>Kontext: Marek sledoval několik hereček. Tvrdí o nich:</i></p> Ani jedna velmi talentovaná herečka sehrála působivé drama." }}],
-["fbad15", aj, {s: {html: "<p><i>Kontext: Zora zkoumala několik vědců. Tvrdí o nich:</i></p> Ani jeden  velmi snaživý vědec udělal kvalitní práci." }}],
+["fbad15", aj, {s: {html: "<p><i>Kontext: Zora zkoumala několik vědců. Tvrdí o nich:</i></p> Ani jeden velmi snaživý vědec udělal kvalitní práci." }}],
 ["fbad16", aj, {s: {html: "<p><i>Kontext: Pepa pozoroval několik běžců. Tvrdí o nich:</i></p> Ani jeden velmi disciplinovaný běžec zaběhl dobrý maraton." }}],
 ];
