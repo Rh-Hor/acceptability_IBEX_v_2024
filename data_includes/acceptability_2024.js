@@ -265,8 +265,7 @@ var items = [ ["sep", "Separator", { }],
 [["it26-pl-g-npi", 26], aj, {s: {html: "<p><i>Kontext: Emil se zajímá o skladatele, co jsou obvykle divadelní nadšenci. Tvrdí o nich:</i></p> Skladatelé se sebemenší známkou vášně většinou psávají velkolepou operu."}}],
 [["it26-pl-e-npi", 26], aj, {s: {html: "<p><i>Kontext: Emil zkoumal skladatele, z nichž někteří dokončili nová díla. Tvrdí o nich:</i></p> Skladatelé se sebemenší známkou vášně právě napsali velkolepou operu."}}],
 [["it26-s-g-npi", 26], aj, {s: {html: "<p><i>Kontext: Emil se zajímá o skladatele, co jsou obvykle divadelní nadšenci. Tvrdí o nich:</i></p> Skladatel se sebemenší známkou vášně většinou psává velkolepou operu."}}],
-[["it26-s-e-npi", 26], aj, {s: {html: "<p><i>Kontext: Emil zkoumal skladatele, z nichž někteří dokončili nová díla. Tvrdí o nich:</i></p> Skladatel se sebemenší známkou vášně právě napsal velkolepou operu.
-"}}],
+[["it26-s-e-npi", 26], aj, {s: {html: "<p><i>Kontext: Emil zkoumal skladatele, z nichž někteří dokončili nová díla. Tvrdí o nich:</i></p> Skladatel se sebemenší známkou vášně právě napsal velkolepou operu."}}],
 
 [["it27-pl-g-nonpi", 27], aj, {s: {html: "<p><i>Kontext: Karel se zajímá o cyklóny, což jsou obvykle sněhové vánice. Tvrdí o nich:</i></p> Cyklóny s velkým množstvím sněhu většinou dělávají strašnou paseku."}}],
 [["it27-pl-e-nonpi", 27], aj, {s: {html: "<p><i>Kontext: Karel zkoumal cyklóny, z nichž některé napáchaly velké škody. Tvrdí o nich:</i></p> Cyklóny s velkým množstvím sněhu právě nadělaly strašnou paseku."}}],
@@ -275,8 +274,7 @@ var items = [ ["sep", "Separator", { }],
 [["it27-pl-g-npi", 27], aj, {s: {html: "<p><i>Kontext: Karel se zajímá o cyklóny, což jsou obvykle sněhové vánice. Tvrdí o nich:</i></p> Cyklóny se sebemenší trochou sněhu většinou dělávají strašnou paseku."}}],
 [["it27-pl-e-npi", 27], aj, {s: {html: "<p><i>Kontext: Karel zkoumal cyklóny, z nichž některé napáchaly velké škody. Tvrdí o nich:</i></p> Cyklóny se sebemenší trochou sněhu právě nadělaly strašnou paseku."}}],
 [["it27-s-g-npi", 27], aj, {s: {html: "<p><i>Kontext: Karel se zajímá o cyklóny, což jsou obvykle sněhové vánice. Tvrdí o nich:</i></p> Cyklóna se sebemenší trochou sněhu většinou dělává strašnou paseku."}}],
-[["it27-s-e-npi", 27], aj, {s: {html: "<p><i>Kontext: Karel zkoumal cyklóny, z nichž některé napáchaly velké škody. Tvrdí o nich:</i></p> Cyklóna se sebemenší trochou sněhu právě nadělala strašnou paseku.
-"}}],
+[["it27-s-e-npi", 27], aj, {s: {html: "<p><i>Kontext: Karel zkoumal cyklóny, z nichž některé napáchaly velké škody. Tvrdí o nich:</i></p> Cyklóna se sebemenší trochou sněhu právě nadělala strašnou paseku."}}],
 
 [["it28-pl-g-nonpi", 28], aj, {s: {html: "<p><i>Kontext: Rita se zajímá o kuřačky, což jsou obvykle neduživé ženy. Tvrdí o nich:</i></p> Kuřačky s velkou měrou nemoci většinou jídávají přesolenou polévku."}}],
 [["it28-pl-e-nonpi", 28], aj, {s: {html: "<p><i>Kontext: Rita zkoumala kuřačky, z nichž některé necítily chuť jídla. Tvrdí o nich:</i></p> Kuřačky s velkou měrou nemoci právě snědly přesolenou polévku."}}],
@@ -285,8 +283,7 @@ var items = [ ["sep", "Separator", { }],
 [["it28-pl-g-npi", 28], aj, {s: {html: "<p><i>Kontext: Rita se zajímá o kuřačky, což jsou obvykle neduživé ženy. Tvrdí o nich:</i></p> Kuřačky se sebemenší známkou nemoci většinou jídávají přesolenou polévku."}}],
 [["it28-pl-e-npi", 28], aj, {s: {html: "<p><i>Kontext: Rita zkoumala kuřačky, z nichž některé necítily chuť jídla. Tvrdí o nich:</i></p> Kuřačky se sebemenší známkou nemoci právě snědly přesolenou polévku."}}],
 [["it28-s-g-npi", 28], aj, {s: {html: "<p><i>Kontext: Rita se zajímá o kuřačky, což jsou obvykle neduživé ženy. Tvrdí o nich:</i></p> Kuřačka se sebemenší známkou nemoci většinou jídává přesolenou polévku."}}],
-[["it28-s-e-npi", 28], aj, {s: {html: "<p><i>Kontext: Rita zkoumala kuřačky, z nichž některé necítily chuť jídla. Tvrdí o nich:</i></p> Kuřačka se sebemenší známkou nemoci právě snědla přesolenou polévku.
-"}}],			      
+[["it28-s-e-npi", 28], aj, {s: {html: "<p><i>Kontext: Rita zkoumala kuřačky, z nichž některé necítily chuť jídla. Tvrdí o nich:</i></p> Kuřačka se sebemenší známkou nemoci právě snědla přesolenou polévku."}}],			      
 
 [["it29-pl-g-nonpi", 29], aj, {s: {html: "<p><i>Kontext:  Čeněk se zajímá o straky, což jsou obvykle všeteční ptáci. Tvrdí o nich:</i></p> Straky s velkou měrou zvědavosti většinou nosívají drobný odpad."}}],
 [["it29-pl-e-nonpi", 29], aj, {s: {html: "<p><i>Kontext: Čeněk pozoroval straky, z nichž některé ukradly kousky kovošrotu. Tvrdí o nich:</i></p> Straky s velkou měrou zvědavosti právě odnesly drobný odpad."}}],
@@ -295,8 +292,7 @@ var items = [ ["sep", "Separator", { }],
 [["it29-pl-g-npi", 29], aj, {s: {html: "<p><i>Kontext:  Čeněk se zajímá o straky, což jsou obvykle všeteční ptáci. Tvrdí o nich:</i></p> Straky se sebemenší trochou zvědavosti většinou nosívají drobný odpad."}}],
 [["it29-pl-e-npi", 29], aj, {s: {html: "<p><i>Kontext: Čeněk pozoroval straky, z nichž některé ukradly kousky kovošrotu. Tvrdí o nich:</i></p> Straky se sebemenší trochou zvědavosti právě odnesly drobný odpad."}}],
 [["it29-s-g-npi", 29], aj, {s: {html: "<p><i>Kontext:  Čeněk se zajímá o straky, což jsou obvykle všeteční ptáci. Tvrdí o nich:</i></p> Straka se sebemenší trochou zvědavosti většinou nosívá drobný odpad."}}],
-[["it29-s-e-npi", 29], aj, {s: {html: "<p><i>Kontext: Čeněk pozoroval straky, z nichž některé ukradly kousky kovošrotu. Tvrdí o nich:</i></p> Straka se sebemenší trochou zvědavosti právě odnesla drobný odpad.
-"}}],	
+[["it29-s-e-npi", 29], aj, {s: {html: "<p><i>Kontext: Čeněk pozoroval straky, z nichž některé ukradly kousky kovošrotu. Tvrdí o nich:</i></p> Straka se sebemenší trochou zvědavosti právě odnesla drobný odpad."}}],	
 
 [["it30-pl-g-nonpi", 30], aj, {s: {html: "<p><i>Kontext:  Mína se zajímá o závodníky, což jsou obvykle nekonvenční povahy. Tvrdí o nich:</i></p> Závodníci s velkou měrou originality většinou jezdívají automobilovou rallye."}}],
 [["it30-pl-e-nonpi", 30], aj, {s: {html: "<p><i>Kontext: Mína sledovala závodníky, z nichž někteří dokončili silniční závod. Tvrdí o nich:</i></p> Závodníci s velkou měrou originality právě ujeli automobilovou rallye."}}],
@@ -305,8 +301,7 @@ var items = [ ["sep", "Separator", { }],
 [["it30-pl-g-npi", 30], aj, {s: {html: "<p><i>Kontext: Mína se zajímá o závodníky, což jsou obvykle nekonvenční povahy. Tvrdí o nich:</i></p> Závodníci se sebemenší známkou originality většinou jezdívají automobilovou rallye."}}],
 [["it30-pl-e-npi", 30], aj, {s: {html: "<p><i>Kontext: Mína sledovala závodníky, z nichž někteří dokončili silniční závod. Tvrdí o nich:</i></p> Závodníci se sebemenší známkou originality právě ujeli automobilovou rallye."}}],
 [["it30-s-g-npi", 30], aj, {s: {html: "<p><i>Kontext:  Mína se zajímá o závodníky, což jsou obvykle nekonvenční povahy. Tvrdí o nich:</i></p> Závodník se sebemenší známkou originality většinou jezdívá automobilovou rallye."}}],
-[["it30-s-e-npi", 30], aj, {s: {html: "<p><i>Kontext: Mína sledovala závodníky, z nichž někteří dokončili silniční závod. Tvrdí o nich:</i></p> Závodník se sebemenší známkou originality právě ujel automobilovou rallye.
-"}}],
+[["it30-s-e-npi", 30], aj, {s: {html: "<p><i>Kontext: Mína sledovala závodníky, z nichž někteří dokončili silniční závod. Tvrdí o nich:</i></p> Závodník se sebemenší známkou originality právě ujel automobilovou rallye."}}],
 
 [["it31-pl-g-nonpi", 31], aj, {s: {html: "<p><i>Kontext:  Eva se zajímá o arestantky, což jsou obvykle kajícné pachatelky. Tvrdí o nich:</i></p> Arestantky s vysokou úrovní kázně většinou slýchávají ptačí zpěv."}}],
 [["it31-pl-e-nonpi", 31], aj, {s: {html: "<p><i>Kontext: Eva vyzpovídala arestantky, z nichž některé navštívily venkovní areál. Tvrdí o nich:</i></p> Arestantky s vysokou úrovní kázně právě uslyšely ptačí zpěv."}}],
@@ -315,20 +310,16 @@ var items = [ ["sep", "Separator", { }],
 [["it31-pl-g-npi", 31], aj, {s: {html: "<p><i>Kontext: Eva se zajímá o arestantky, což jsou obvykle kajícné pachatelky. Tvrdí o nich:</i></p> Arestantky se sebemenší trochou kázně většinou slýchávají ptačí zpěv."}}],
 [["it31-pl-e-npi", 31], aj, {s: {html: "<p><i>Kontext: Eva vyzpovídala arestantky, z nichž některé navštívily venkovní areál. Tvrdí o nich:</i></p> Arestantky se sebemenší trochou kázně právě uslyšely ptačí zpěv."}}],
 [["it31-s-g-npi", 31], aj, {s: {html: "<p><i>Kontext: Eva se zajímá o arestantky, což jsou obvykle kajícné pachatelky. Tvrdí o nich:</i></p> Arestantka se sebemenší trochou kázně většinou slýchává ptačí zpěv."}}],
-[["it31-s-e-npi", 31], aj, {s: {html: "<p><i>Kontext: Eva vyzpovídala arestantky, z nichž některé navštívily venkovní areál. Tvrdí o nich:</i></p> Arestantka se sebemenší trochou kázně právě uslyšela ptačí zpěv.
+[["it31-s-e-npi", 31], aj, {s: {html: "<p><i>Kontext: Eva vyzpovídala arestantky, z nichž některé navštívily venkovní areál. Tvrdí o nich:</i></p> Arestantka se sebemenší trochou kázně právě uslyšela ptačí zpěv."}}],
 
-"}}],
-
-[["it31-pl-g-nonpi", 31], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorky s velkou měrou zvídavosti většinou čítávají naučnou literaturu."}}],
-[["it31-pl-e-nonpi", 31], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorky s velkou měrou zvídavosti právě dočetly naučnou literaturu."}}],
-[["it31-s-g-nonpi", 31], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorka s velkou měrou zvídavosti většinou čítává naučnou literaturu."}}],
-[["it31-s-e-nonpi", 31], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorka s velkou měrou zvídavosti právě dočetla naučnou literaturu."}}],
-[["it31-pl-g-npi", 31], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorky se sebemenší známkou  zvídavosti většinou čítávají naučnou literaturu."}}],
-[["it31-pl-e-npi", 31], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorky se sebemenší známkou zvídavosti  právě dočetly naučnou literaturu."}}],
-[["it31-s-g-npi", 31], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorka se sebemenší známkou zvídavosti  většinou čítává naučnou literaturu."}}],
-[["it31-s-e-npi", 31], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorka se sebemenší známkou  zvídavosti právě dočetla naučnou literaturu.
-
-"}}],
+[["it32-pl-g-nonpi", 32], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorky s velkou měrou zvídavosti většinou čítávají naučnou literaturu."}}],
+[["it32-pl-e-nonpi", 32], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorky s velkou měrou zvídavosti právě dočetly naučnou literaturu."}}],
+[["it32-s-g-nonpi", 32], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorka s velkou měrou zvídavosti většinou čítává naučnou literaturu."}}],
+[["it32-s-e-nonpi", 32], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorka s velkou měrou zvídavosti právě dočetla naučnou literaturu."}}],
+[["it32-pl-g-npi", 32], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorky se sebemenší známkou  zvídavosti většinou čítávají naučnou literaturu."}}],
+[["it32-pl-e-npi", 32], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorky se sebemenší známkou zvídavosti  právě dočetly naučnou literaturu."}}],
+[["it32-s-g-npi", 32], aj, {s: {html: "<p><i>Kontext: Erik se zajímá o seniorky, což jsou obvykle učenlivé ženy. Tvrdí o nich:</i></p> Seniorka se sebemenší známkou zvídavosti  většinou čítává naučnou literaturu."}}],
+[["it32-s-e-npi", 32], aj, {s: {html: "<p><i>Kontext: Erik vyzpovídal seniorky, z nichž některé odložily odborné knihy. Tvrdí o nich:</i></p> Seniorka se sebemenší známkou  zvídavosti právě dočetla naučnou literaturu."}}],
     
 ["fgood1", aj, {s: {html: "<p><i>Kontext: Jarda pozoroval několik koní. Tvrdí o nich:</i></p> Ani jeden velmi energický kůň neuběhl velkou vzdálenost." }}],
 ["fgood2", aj, {s: {html: "<p><i>Kontext: Jarka zkoumala několik zvířat. Tvrdí o nich:</i></p> Ani jedno velmi vnímavé zvíře neuslyšelo velký rámus." }}],
