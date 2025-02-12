@@ -222,7 +222,7 @@ var items = [ ["sep", "Separator", { }],
 [["it21-s-g-npi", 21], aj, {s: {html: "<p><i>Kontext: Nora se zajímá o švadleny, což jsou obvykle šikovné řemeslnice. Tvrdí o nich:</i></p> Švadlena se sebemenší trochou zručnosti většinou dělává hodnotné zboží."}}],
 [["it21-s-e-npi", 21], aj, {s: {html: "<p><i>Kontext: Nora pozorovala švadleny, z nichž některé ušily přepychové šaty. Tvrdí o nich:</i></p> Švadlena se sebemenší trochou zručnosti právě udělala hodnotné zboží."}}],
 
-["it22-pl-g-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou obvykle líní lidé. Tvrdí o nich:</i></p> Středoškoláci s velkou měrou lenosti většinou nosívají špatné vysvědčení."}}],
+[["it22-pl-g-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou obvykle líní lidé. Tvrdí o nich:</i></p> Středoškoláci s velkou měrou lenosti většinou nosívají špatné vysvědčení."}}],
 [["it22-pl-e-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda zkoumal středoškoláky, z nichž někteří málem nedokončili ročník. Tvrdí o nich:</i></p> Středoškoláci s velkou měrou lenosti právě přinesli špatné vysvědčení."}}],
 [["it22-s-g-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda se zajímá o středoškoláky, což jsou obvykle líní lidé. Tvrdí o nich:</i></p> Středoškolák s velkou měrou lenosti většinou nosívá špatné vysvědčení."}}],
 [["it22-s-e-nonpi", 22], aj, {s: {html: "<p><i>Kontext: Jenda zkoumal středoškoláky, z nichž někteří málem nedokončili ročník. Tvrdí o nich:</i></p> Středoškolák s velkou měrou lenosti právě přinesl špatné vysvědčení."}}],
