@@ -246,7 +246,7 @@ var items = [ ["sep", "Separator", { }],
 [["it24-s-e-nopsi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistka s vysokou úrovní vynalézavosti právě zahrála jazzovou improvizaci."}}],
 [["it24-pl-g-psi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou obvykle inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistky se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci."}}],
 [["it24-pl-e-psi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistky se sebemenší známkou vynalézavosti právě zahrály jazzovou improvizaci."}}],
-[["it24-s-g-psi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou obvykle inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistka se sebemenší známkou vynalézavosti většinou hrávají jazzovou improvizaci."}}],
+[["it24-s-g-psi", 24], aj, {s: {html: "<p><i>Kontext: Marie se zajímá o saxofonistky, což jsou obvykle inovativní hudebnice. Tvrdí o nich:</i></p> Saxofonistka se sebemenší známkou vynalézavosti většinou hrává jazzovou improvizaci."}}],
 [["it24-s-e-psi", 24], aj, {s: {html: "<p><i>Kontext: Marie vyzpovídala saxofonistky, z nichž některé na koncertě improvizovaly. Tvrdí o nich:</i></p> Saxofonistka se sebemenší známkou vynalézavosti právě zahrála jazzovou improvizaci."}}],
 
 [["it25-pl-g-nopsi", 25], aj, {s: {html: "<p><i>Kontext: Bětka se zajímá o kajakáře, což jsou obvykle dobrodružní lidé. Tvrdí o nich:</i></p> Kajakáři s velkou měrou odvahy většinou jezdívají divokou vodu."}}],
@@ -356,3 +356,4 @@ var items = [ ["sep", "Separator", { }],
 ["fbad32", aj, {s: {html: "<p><i>Kontext: Mína sledovala několik originálních závodníků. Tvrdí o nich:</i></p> Ani jeden velmi originální závodník ujel automobilovou rallye." }}],
 			    
 ];
+
